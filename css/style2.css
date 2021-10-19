@@ -1,0 +1,726 @@
+
+*{
+   margin: 0;
+   border: 0;
+   outline: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*index.html start*/
+/* Navigation */
+.navigation {
+  display: flex;
+  background-color: rgb(247, 228, 215);
+  padding: 1rem;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  font-weight: bolder;
+  border: black solid 2px;
+}
+
+a:visited{
+  color: rgb(139, 132, 241);
+}
+
+a:hover{
+  color: rgb(236, 87, 157);
+  letter-spacing: 2px;
+}
+
+.grid-container-1{
+   display: grid;
+   grid-template-columns: 20% auto;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  grid-row: 1/2;
+  grid-column: 1/3;
+}
+
+.aside{       
+  text-align: center;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  padding: 10px;
+  background-color:  rgb(209, 192, 166);
+}
+   
+ /* mina projekt index.html sidan*/
+main{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:  rgb(209, 192, 166);
+  text-align: center;
+}
+
+.miki{
+  width: 100%;
+}
+
+.h2-main{
+  text-align: center;
+  color: rgb(18, 19, 18);
+  font-size: larger;
+}
+
+.larmteknik{
+  border: solid black 2px;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.marbella{
+  border: solid black 2px;
+  margin: 1rem;
+}
+
+.malaga{
+  border: solid black 2px;
+  margin: 1rem;
+  margin: 3rem;
+}
+
+.hundhjalpen{
+  border: solid black 2px;
+  width: 20%;
+  margin: 2rem;
+  padding: 3rem;
+}
+
+.img-big2{
+  width: 100%;
+}
+
+.nyheter-1{
+  border: solid black 2px;
+  height: auto;
+  margin: 2rem;
+}
+
+.footer{
+  text-align: center;
+  grid-row: 4/5;
+  grid-column: 1/3;
+  background-color:  rgb(209, 192, 166);
+  border: black solid 2px;;
+}
+
+/*index.html sida slut*/
+
+/*avser sida två kontakt.html*/
+.grid-container-kontakt{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.navigation-kontakt1{
+  display: flex;
+  background-color: rgb(231, 236, 247);
+  padding: 1rem;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  font-weight: bolder;
+  border: black solid 2px;
+}
+
+.header-kontakt{
+  grid-row: 1/2;
+  grid-column: 1/3;
+}
+
+.reklam-kontakt{
+  text-align: center;
+  padding: 15px;
+  grid-row: 2/4;
+  grid-column:1/2;
+  background-color: rgb(231, 236, 247);
+}
+
+.img-too-big{
+  width: 100%;
+}
+
+.main-kontakt30{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: rgb(231, 236, 247);
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}  
+
+.h3-kontakt{
+  justify-content: center;
+  color: #3384aa;
+  margin: 5rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(192, 211, 238);
+  border: dotted black;
+  grid-column:2/3 ;
+  grid-row: 3/4;
+}
+
+form *{
+  width:40%;
+  padding: 1rem;
+  font-size: 20px; 
+}
+
+.footer-k{
+  grid-row: 4/5;
+  grid-column: 1/3;
+  text-align: center;
+  background-color: rgb(231, 236, 247);
+  font-size: small;
+}
+
+/*slut på kontaktsidan*/
+
+/*Start på informationssidan*/
+
+.navigation-info {
+  background-color: rgb(242, 243, 178);
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  font-weight: bolder;
+  padding: 1rem;
+}
+
+.grid-container-information{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.header-information{
+  grid-row: 1/2;
+  grid-column: 1/3;
+}
+
+.aside-information{
+  grid-row:2/3 ;
+  grid-column: 1/2;
+  border: 2px black solid;
+  padding: 2rem;
+}
+ 
+.about-miki{
+  grid-row: 2/4;
+  grid-column: 2/4;
+  background-color: rgb(242, 243, 178);
+  padding: 2rem;
+  margin: 2rem;
+  line-height: 2rem;
+}
+
+/*se längre ner ang flex-about-miki*/
+.flex-about-miki{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem;
+  background: white;
+  text-align: left;
+  flex-direction: column;
+}
+
+.moki{
+  width: 100%;
+}
+
+.footer-info{
+  background-color: rgb(242, 243, 178);
+  grid-row: 4/5;
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.rubrik-info-om-miki{
+  border: black solid 2px;
+}
+
+.info-om-miki{
+  border: black solid 2px;
+}
+
+.rubrik-personlighet{
+  border: black solid 2px;
+}
+
+.personlighet-info{
+  border: black solid 2px;
+}
+
+/*informatinssida slut*/
+ 
+     /*Projekt*/
+     /* Larmteknik */
+.navigation-larm {
+  display: flex;
+  background-color: rgb(215, 240, 247);
+  padding: 1rem;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  font-weight: bolder;
+  border: black solid 2px;
+}
+    
+.grid-container-larm1{
+  display: grid;
+  grid-template-rows:  30% 30% 50%;
+}
+
+.header-larm {
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+
+.hemsida{
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background-color: rgb(215, 226, 247);
+  padding: 3rem;
+  border: 2px solid black;
+}
+     
+.om-larm{
+  grid-row: 2/3 ;
+  grid-column: 2/4;
+  background-color: rgb(203, 198, 230);
+  padding: 4rem;
+  border-top: black solid 2px;
+  line-height: 30px;
+}
+    
+.om-foretaget{
+  grid-row: 3/4;
+  grid-column:1/4 ;
+  background-color: rgb(215, 226, 247);
+  padding: 4rem;
+  border-top: black solid 2px;
+  line-height: 30px;
+}
+
+.bottom-larm{
+  text-align: center;
+  grid-row: 4/5;
+  grid-column: 1/4;
+  background-color: rgb(221, 215, 247);
+  border: black solid 2px;
+  padding: 2rem;
+  font-size: xx-large;
+}
+    
+   /*Projekt larmteknik slut*/
+   /*Projekt 2   marbella*/   
+
+.marbella-hem{
+ display: flex;
+  background-color: rgb(215, 228, 247);
+  padding: 1rem;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  font-weight: bolder;
+
+}
+
+.flex-marbella{
+  grid-row: 3/4;
+  grid-column: 1/3;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: large;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: rgb(240, 210, 240);
+}
+
+.grid-marbella{
+  border: rgb(117, 64, 64) solid 2px;
+  display: grid;
+   grid-template-columns: 50% 50%;
+   background-color: rgb(240, 210, 240);
+ 
+}
+
+.marbella-historia{
+  border: rgb(10, 10, 10) 2px solid;
+  font-size: large;
+  text-align: center;
+  margin: 3rem;
+  grid-row: 1/2;
+  grid-column: 1/2;
+}
+
+  
+.marbella-info{
+ grid-row: 1/2;
+ grid-column: 2/3;
+  border: 2px solid black;
+ margin: 2rem;
+ padding: 3rem;
+ background-color: rgb(240, 210, 240);
+}
+
+.marbella-karta{
+  text-align: center;
+  grid-row: 2/3;
+  grid-column:1/3;
+}
+    
+.footer-marbella{
+  grid-row: 4/5;
+  grid-column: 1/4;
+  text-align: right;
+  font-size: small;
+  background-color: rgb(240, 210, 240);
+  padding: 2rem;
+}
+
+/*här nedan kommer flexboxarna*/
+
+.marbella-bilder-1{
+  border: rgb(14, 13, 13) 2px solid;
+  text-align: center;
+}
+     
+.marbella-bilder-2{
+  border: rgb(19, 18, 18) 2px solid;
+  text-align: center;
+}
+     
+.marbella-bilder-3{
+  border: black 2px solid;
+  text-align: center;
+}
+     
+.marbella-bilder-4{
+  border: black 2px solid;
+  text-align: center;
+}
+     
+.marbella-bilder-5{
+  border: black 2px solid;
+  text-align: center;
+}
+     
+.marbella-bilder-6{
+  border: black 2px solid;
+  text-align: center;
+}
+
+   /*projekt marbella slut*/
+
+   /*projekt malaga start*/
+       
+.malaga-3{
+  display: flex;
+  background-color: rgb(247, 228, 215);
+  padding: 1rem;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  font-weight: bolder;
+  border: black solid 2px;
+}
+
+.grid-malaga{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2rem;
+ }
+
+.img-too-big-sol{
+  width: 60%;
+}
+
+.h2-sol{
+   text-align: center;
+}
+
+.mina-bilder{
+  border: black solid 2px;
+  border-radius: 2%;
+  width: 80%;
+  grid-column: 2/3 ;
+  grid-row: 2/4;
+}
+
+.bild-1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  vertical-align: middle;
+   width: 80%;
+}
+
+.bild-2{
+  grid-column: 1/2 ;
+  grid-row: 2/4 ;
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.bild-3{
+  grid-column: 1/2 ;
+  grid-row: 4/6 ;
+  width: 80%;
+}
+
+.bild-4{
+  grid-column: 2/3 ;
+  grid-row: 1/2;
+  height: 90%;
+  width: 80%;
+}
+
+.bild-5{
+  grid-column: 2/3 ;
+  grid-row: 5/6;
+  margin-bottom: 3rem;
+}
+
+.bild-6{
+  grid-column: 3/4 ;
+  grid-row: 1/2;
+}
+
+.bild-7{
+  grid-column: 3/4 ;
+  grid-row: 2/4;
+}
+
+.footer-malag{
+  text-align: center;
+  background-color: darkgrey;
+  border: black solid 2px;
+  grid-column: 2/3 ;
+  grid-row: 6/7 ;
+}
+
+/*Malaga slut*/
+/*Hundhjälpen start*/
+
+/*navigation */
+.flex-hundhjalpen{
+  background-color: #ffffff;
+  display: flex;
+  flex-flow: column;
+  gap: 1rem ;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  border: rgb(104, 100, 102) solid 2px;
+}
+ 
+.flex-container > div {
+  margin: 20px;
+  padding: 20px;
+}
+ 
+ /* Page content */
+.grid-container-dog {
+  display: grid;
+  grid-template-columns: 30% 20% auto auto;
+  padding-top:20px;
+}
+ 
+.grid-item {
+  background-color:#8ad8fc;
+  text-align: center;
+  color:#ffffff;
+  margin: 10px;
+  padding: 10px;
+  border: 2px black solid;
+  color: black;
+}
+
+.footer-6{
+  background-color:#32ade6;
+  text-align: center;
+  color:#ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+
+.pic-too-big{
+  width: 100%;
+}
+
+/*Hundhjälpen slut*/
+/*Nyheter start*/
+
+.nyheter{
+  display: flex;
+  flex-direction: row;
+  border: 2px rgb(51, 41, 41) solid;
+  justify-content: space-evenly;
+  padding: 1rem;
+
+}
+
+.flex-nyheter{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   color: black;
+  padding: 1rem;
+}
+
+.grid-nyheter{
+   display: grid;
+   grid-template-columns: 20% 30% auto;
+   background-color: whitesmoke;
+   
+   
+
+ 
+}
+
+.grid-item-n1{
+   
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+  
+  grid-column: 2/2;
+  grid-row: 1/2;
+  padding-top: 3rem;
+
+}
+
+
+
+.grid-item-n2{
+ 
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+  
+  grid-column: 2/3;
+  grid-row: 2/3;
+  
+}
+
+.grid-item-n3{
+   border: black solid 2px;
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+   grid-column: 2/4;
+  grid-row: 4/5;
+}
+
+.grid-item-n4{
+  
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+ 
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.grid-item-n5{
+   background-color: whitesmoke;
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+  border: black solid 2px;
+  grid-column: 3/4;
+  grid-row: 2/3
+}
+
+.grid-item-n6{
+  
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+  border: black solid 2px;
+  grid-column: 1/2;
+  grid-row: 1/5;
+  line-height: 2;
+  text-align: left;
+  
+}
+
+.grid-item-n7{
+ 
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+  
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.grid-item-n8{
+ 
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+  
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.grid-item-n9{
+  
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+
+  grid-column: 1/3;
+  grid-row: 5/6;
+
+}
+
+
+.grid-item-n10{
+  
+  text-align: center;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+
+  grid-column: 3/4;
+  grid-row: 5/6;
+
+}
+
+.nyheter-kontakt{
+   border-top: black solid 2px;
+  color:#050505;
+  margin: 10px;
+  padding: 10px;
+  
+  grid-column: 1/4;
+  grid-row: 6/7;
+  text-align: center;
+  
+
+}
